@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+
+import AlmostFullBanner from './componets/AlmostFullBanner';
+import CoachIntroSection from './componets/CoachIntroSection';
+import CourseSlider from './componets/CourseSlider';
+import FaqAccordion from './componets/FaqAccordion';
+import FreeMasterclass from './componets/FreeMasterclass';
+import ProfitSection from './componets/ProfitSection';
+import ReviewSlider from './componets/ReviewSlider';
+import TestimonialSlider from './componets/TestimonialSlider';
+import TopStudents from './componets/TopStudents';
+import WorkshopLearnSection from './componets/WorkshopLearnSection';
+import WorkshopPoints from './componets/WorkshopPoints';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <FreeMasterclass/>
+      <TopStudents/>
+      <CourseSlider/>
+      <WorkshopPoints/>
+      <WorkshopLearnSection/>
+      <ProfitSection/>
+      <CoachIntroSection/>
+      <TestimonialSlider/>
+      <ReviewSlider/>
+      <FaqAccordion/>
+      <AlmostFullBanner/>
     </div>
   );
 }
