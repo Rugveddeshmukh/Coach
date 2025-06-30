@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import CountUp from 'react-countup';
 import coachImage from '../Assest/GG web.png';
 
 const FreeMasterclass = () => {
@@ -31,14 +32,13 @@ const FreeMasterclass = () => {
           display: 'inline-block',
           background: 'transparent',
           letterSpacing: '0.5px',
-         
         }}>
-          Don't Miss This Limited-Time Blueprint!
+          Time Limited Growth Unlimited!
         </div>
 
         <h1 style={{ color: 'white', fontSize: isMobile ? '26px' : '36px', lineHeight: 1.4, marginTop: '20px' }}>
-          Struggling to Grow on Instagram? Download Our <br />
-          <span style={{ color: '#fbbc04' }}>BLUEPRINT Just Rs. 11</span> That Actually Works!
+          Instagram वरुण Business मिळवण्याचा <br />
+          Struggle थांबवा तेही <br /> <span style={{ color: '#fbbc04' }}> फक्त 11 रुपयात</span>
         </h1>
       </div>
 
@@ -50,11 +50,10 @@ const FreeMasterclass = () => {
         justifyContent: 'center',
         alignItems: isMobile ? 'center' : 'flex-start',
         padding: '0 20px',
-        
       }}>
 
         {/* Left Image Block */}
-        <div style={{ flex: 1, minWidth: '300px', textAlign: 'center', marginBottom: isMobile ? '30px' : '0' }}>
+        <div style={{ flex: 1, minWidth: '300px', textAlign: 'center', marginBottom: isMobile ? '30px' : '0',marginLeft:'10px' }}>
           <img
             src={coachImage}
             alt="Coach"
@@ -62,7 +61,6 @@ const FreeMasterclass = () => {
               width: isMobile ? '200px' : '250px',
               height: isMobile ? '200px' : '230px',
               objectFit: 'cover',
-              
             }}
           />
           <div style={{
@@ -70,16 +68,14 @@ const FreeMasterclass = () => {
             borderRadius: '12px',
             border: '1px solid rgba(255, 255, 255, 0.2)',
             maxWidth: '400px',
-            margin: '10px auto 0',
-            padding: '15px',
             margin: '-10px auto 0',
-            
+            padding: '15px',
           }}>
             <h2 style={{ margin: 0, color: 'white', fontSize: '18px' }}>
               Glowingrowth's Viral Secrets
             </h2>
             <p style={{ marginTop: '10px', fontSize: '14px' }}>
-              Download Glowingrowth's Proven Instagram Blueprint and<br/> start growing your page from scratch
+              लाखोच्या buisness साठी 11 काहीच नाही
             </p>
           </div>
         </div>
@@ -96,25 +92,27 @@ const FreeMasterclass = () => {
             textAlign: "center"
           }}>
             <div>
-              <div style={{ fontWeight: "bold", fontSize: "20px" }}>10,000+</div>
-              <div style={{ fontSize: "15px" }}>Ideas Unlocked</div>
+              <div style={{ fontWeight: "bold", fontSize: "20px" }}>
+                <CountUp end={10000} duration={2} separator="," />+
+              </div>
+              <div style={{ fontSize: "15px" }}>Ideas</div>
             </div>
             <div>
-              <div style={{ fontWeight: "bold", fontSize: "20px" }}>5,200+</div>
-              <div style={{ fontSize: "15px" }}>Downloaders</div>
+              <div style={{ fontWeight: "bold", fontSize: "20px" }}>
+                <CountUp end={5200} duration={2} separator="," />+
+              </div>
+              <div style={{ fontSize: "15px" }}>Download</div>
             </div>
             <div>
-              <div style={{ fontWeight: "bold", fontSize: "20px" }}>90%+</div>
+              <div style={{ fontWeight: "bold", fontSize: "20px" }}>
+                <CountUp end={95} duration={2} suffix="%" />+
+              </div>
               <div style={{ fontSize: "15px" }}>Growth</div>
             </div>
           </div>
 
           {/* Agency Details Box */}
-          <div style={{
-            maxWidth: "500px",
-            margin: "0 auto",
-            
-          }}>
+          <div style={{ maxWidth: "500px", margin: "0 auto" }}>
             <h5 style={{
               color: "#fff",
               fontWeight: "600",
@@ -124,11 +122,11 @@ const FreeMasterclass = () => {
             }}>
               Your Social Media Marketing & Branding Agency
             </h5>
-            <div style={{ color: "#ccc", fontSize: "15px", lineHeight: "1.7",paddingLeft:'15%', }}>
-              <p>☑ Struggling to grow on Instagram?</p>
-              <p>☑ Download Proven Blueprint @ ₹11</p>
-              <p>☑ Growth Starts with Just One Click</p>
-              <p>☑ Reel Hooks | Hashtag Guide | Strategy</p>
+            <div style={{ color: "#ccc", fontSize: "15px", lineHeight: "1.7", paddingLeft: '15%' }}>
+              <p>☑ हो ₹११ मध्ये इंस्टा ग्रोथ? शक्य आहे.</p>
+              <p>☑ वायरल व्हायला तुम्ही तयार आहात का?</p>
+              <p>☑ रोज पोस्ट करूनही काही होत नाही? </p>
+              <p>☑ ज्यांना खरंच इंस्टावर काहीतरी करायचंय त्यांच्यासाठी खास! </p>
             </div>
           </div>
 
@@ -145,7 +143,7 @@ const FreeMasterclass = () => {
               cursor: 'pointer',
               width: isMobile ? '100%' : 'auto',
             }}>
-               Yes, I Want This for ₹ 11!
+              Yes, I Want Growth
             </button>
             <p style={{
               marginTop: '10px',
@@ -153,8 +151,8 @@ const FreeMasterclass = () => {
               fontSize: '17px',
               fontFamily: 'outfit,sans-serif',
             }}>
-              We're offering this powerful Blueprint because <br/>
-              <span style={{color:'red'}}>we're packing 10 years of proven expertise into it</span>
+              We're offering this powerful Blueprint because <br />
+              <span style={{ color: 'red' }}>we're packing 10 years of proven expertise into it</span>
             </p>
           </div>
         </div>
@@ -167,7 +165,7 @@ const FreeMasterclass = () => {
         fontSize: '16px',
         paddingTop: '20px'
       }}>
-        5,000+ Downlaods& Counting  &nbsp; | &nbsp; Proven by 1000s of Instagram Creators  &nbsp; | &nbsp; 100% Result-Oriented.
+        5,000+ Downloads & Counting &nbsp; | &nbsp; Proven by 1000s of Instagram Creators &nbsp; | &nbsp; 100% Result-Oriented.
       </div>
 
       {/* Tick Point List */}

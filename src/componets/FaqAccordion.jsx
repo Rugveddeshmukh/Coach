@@ -2,29 +2,39 @@ import React, { useState } from "react";
 
 const faqData = [
   {
-    question: "What If I Am Unable to Attend the Masterclass Live?",
+    question: "ही PDF कुणासाठी आहे?",
     answer:
-      'If for any reason you are not able to attend the masterclass, drop us an email at “purushottam@coacheasily.com” up to 15 minutes before the masterclass starts & we will reserve your seat for the next masterclass but the reason should be genuine and please note that I can do it only once.',
+      'तुम्ही जर इंस्टाग्रामवर काहीतरी मोठं करायचं ठरवलं असेल, पण कुठून सुरू करावं हेच कळत नसेल – तर ही गाइड तुमच्यासाठी आहे. तुम्ही नवीन क्रिएटर असाल, छोटासा बिझनेस चालवत असाल, की रोज पोस्ट करूनही reach काहीच येत नाही असं वाटत असेल  तरीही ही गाइड तुमचं गेमचेंज करू शकते.',
   },
   {
-    question: "How Can I Join the Masterclass?",
+    question: "मला इंस्टाग्रामची जास्त माहिती नसल्यामुळे, ही मार्गदर्शिका उपयुक्त ठरू शकेल का?",
     answer:
-      "You will receive a confirmation email with a joining link after registration. Use that to join.",
+      "हो नक्की! तुम्हाला इंस्टाग्रामची जास्त माहिती नसली तरी काहीच बिघडत नाही. ही गाइड अगदी सुरुवातीपासून सोप्या भाषेत समजावते  step by step. तुम्ही अगदी 'zero' पासून सुरू करत असलात तरीही सहज grasp होईल, आणि आत्मविश्वासही वाढेल.",
   },
   {
-    question: "Can I Ask Questions During the Masterclass?",
+    question: "प्रोफाईल सेट करण्याची माहिती यात दिलेली आहे का?",
     answer:
-      "Yes, there will be a dedicated Q&A session where you can ask questions.",
+      "हो! प्रोफाईल सेट करायचंय ना? मग चिंता नको फोटो कसा ठेवायचा, bio काय लिहायचं, highlights कुठले टाकायचे सगळं एकदम सोप्या भाषेत समजावून दिलंय. काही दिवसांतच लोक तुमचं प्रोफाईल पाहून म्हणतील its a brand.",
   },
   {
-    question: "Where Will I be Getting My Bonuses?",
+    question: "Instagram द्वारे पैसे मिळू शकतात का?",
     answer:
-      "Bonuses will be shared with you via email after you complete the masterclass.",
+      "हो ना! इंस्टाग्रामवरून खरंच पैसे मिळू शकतात आणि फक्त मोठ्या क्रिएटर्ससाठीच नाही, तर अगदी तुम्हा-आमच्यासारख्या लोकांसाठीसुद्धा. ब्रँड्सशीCollab करायचं, affiliate marketing, paid reels  पर्याय भरपूर आहेत. या गाइडमध्ये ते सगळं नीट समजावून दिलंय.",
   },
   {
-    question: "What Should Do If I Have Any Additional Queries?",
+    question: "मोबाईलवर ही पीडीएफ फाईल उघडता येते का?",
     answer:
-      "You can contact our support team anytime at support@coacheasily.com.",
+      "हो, अगदी सहज! ही PDF मोबाईलवर अगदी आरामात उघडता येते – काही अडचणच नाही. मोबाईलमध्येच वाचा, शिकता शिकता इंस्टावर लगेच अ‍ॅप्लायही करा!",
+  },
+  {
+    question: "फॉर्म भरल्यावर मला त्वरित PDF मिळेल की नाही?",
+    answer:
+      "हो हो! फॉर्म भरल्यानंतर लगेच PDF मिळते – आणि तुम्ही इंस्टा ग्रो करायला लगेच सुरुवात करू शकता!",
+  },
+  {
+    question: "फॉलोअर्स वाढवण्यासाठी काही अस्सल टिप्स आहेत का?",
+    answer:
+      "होय! या गाइडमध्ये अशा टिप्स आहेत ज्या आम्ही स्वतः वापरून टेस्ट केल्या आहेत – आणि खरंच काम करतात. Reels कशा व्हायरल होतात, कोणत्या वेळेस पोस्ट करावं, फॉलोअर्सशी कसं कनेक्ट व्हावं, hashtags कसे वापरावेत – सगळं step-by-step दिलंय. शॉर्टकट नाहीत, पण जे टिकून राहील असा sustainable ग्रोथचा रस्ता इथे मिळतो!",
   },
 ];
 

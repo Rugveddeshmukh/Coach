@@ -2,19 +2,19 @@ import React from "react";
 
 const WorkshopLearnSection = () => {
   const leftList = [
-    "How to find a profitable niche with the help of AI in just a few minutes",
-    "How to make an online coaching roadmap with the help of AI",
-    "How to create an irresistible offer through ChatGPT and other AI tools",
-    "How to create a landing page copy with the secret prompt formula",
-    "How to make attractive and winning ad copies in just 10 minutes",
+    "इस्टाग्रामचं अल्गोरिदम नेमकं काय करतं, आणि आपलं पोस्ट लोकांपर्यंत पोहोचण्यासाठी त्यात कसं फिट बसायचं – अगदी थोडक्यात, पण नेमकं.",
+    "फॉलोअर्स वाढवण्यासाठी खरंच जे काम करतं ते – ना कोणते फेक apps, ना follow-unfollowचे झंझट. फक्त रिअल लोक, रिअल ग्रोथ.",
+    "Reel स्क्रोल करताना लोक थांबतात का? थांबतात! का थांबतात? तेच शिकायचं – catchy hooks कसे लिहायचे हे समजावून घेणार.",
+    "तुमचं प्रोफाईल बघितलं की लोक म्हणाले पाहिजे – ‘हा/ही काहीतरी करतंय!’ असा फील देणारं ब्रँडसारखं लुक कसं तयार करायचं.",
+    "कधी पोस्ट टाकायचं? - ही एक छोटी गोष्ट, पण गेम चेंज करते. टाइमिंगचं गणित कसं जमवायचं ते इथे समजेल.",
   ];
 
   const rightList = [
-    "How to craft engaging and high open-rate email and WhatsApp messages",
-    "How to create a webinar storyline and script based on AIDA and PAS",
-    "How to create an irresistible offer & course curriculum.",
-    "How to identify a course and turn it into a profitable course idea.",
-    "A complete marketing strategy that turns visitors into lifelong customers.",
+    "Hashtags खरंच उपयोगी पडतात का? हो, पण योग्य असले पाहिजेत! काय चालतं, काय वाया जातं – हे क्लिअर होणार.",
+    "Engagement वाढवण्यासाठी काही छोटे पण solid ट्रिक्स – म्हणजे तुमचं पोस्ट लाईक-शेअर-सेंतचा धडका!",
+    "Content ideas कसे काढायचे? रोज काही तरी नवं सुचेल अशी टेक्निक – म्हणजे तुम्ही कधीही 'काय टाकू?' असं विचारणार नाही.",
+    "इंस्टा वरून पैसे कमावणं म्हणजे स्वप्न नाही – Collabs, affiliates, services… काय चालतं, आणि कसं सुरू करायचं हेही शिकणार.",
+    "आज आहे, उद्या नाही – असं नको. Insta वर टिकून राहायचंय? मग strategy + consistency हाच फॉर्म्युला – हेच शेवटी जिंकवणार!",
   ];
 
   return (
@@ -110,7 +110,7 @@ const WorkshopLearnSection = () => {
             width:"70%",
           }}
         >
-          Join Now For FREE!
+          Yes, I Want Growth 
         </button>
       </div>
     </div>

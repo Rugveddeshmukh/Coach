@@ -55,10 +55,10 @@ const CoachIntroSection = () => {
         }}
       >
         <h2 style={{ fontSize: "28px", fontWeight: "700", color: "#2ecc71" }}>
-          Purushottam Hambarde
+          अखिलेश कुलकर्णी
         </h2>
         <h3 style={{ fontSize: "20px", fontWeight: "600", marginTop: "10px" }}>
-          Founder of CoachEasily.com
+          Founder of GGM
         </h3>
 
         {/* Green underline */}
@@ -73,11 +73,8 @@ const CoachIntroSection = () => {
         />
 
         <p style={{ fontSize: "18px", lineHeight: "1.6", fontWeight: 500 }}>
-          Hi, I’m Purushottam Hambarde. Using the power of AI, I have helped
-          more than <strong>5170 people</strong> start and scale their online
-          coaching businesses. <br />
-          My AI-based all-in-one tool will help convert your visitors to
-          lifetime customers.
+          Hi, मी अखिलेश कुलकर्णी owner of GGM आता पर्यंत मी अनेक Buisness ला Digital Marketing
+         आणि Instagram मधुन grow केलय. तर अजून जास्तीत जास्त लोका पर्यंत हा Initiative पोहचवा म्हणून आम्ही घेऊन आलोय एक Instagram Guide.
         </p>
 
         {/* CTA Button */}
@@ -95,7 +92,7 @@ const CoachIntroSection = () => {
               width:"70%"
             }}
           >
-            Join Now For FREE!
+           Yes, I Want Growth
           </button>
         </div>
       </div>
